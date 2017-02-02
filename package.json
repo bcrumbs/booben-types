@@ -2,7 +2,7 @@
   "name": "@jssy/types",
   "version": "0.1.2",
   "description": "Type system for JSSY",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"No tests yet :(\" && exit 0",
     "lint": "eslint ."
@@ -11,11 +11,15 @@
     "type": "git",
     "url": "ssh://git@gitlab.ordbuy.com:29184/jssy/jssy-types.git"
   },
+  "bugs": {
+    "url": "https://gitlab.ordbuy.com/jssy/jssy-types/issues",
+    "email": "bizyaev@ordbuy.com"
+  },
   "keywords": [
     "jssy",
     "types"
   ],
-  "author": "Dmitriy Bizyaev",
+  "author": "Dmitriy Bizyaev <bizyaev@ordbuy.com>",
   "license": "UNLICENCED",
   "dependencies": {
     "lodash.mapvalues": "^4.6.0"
