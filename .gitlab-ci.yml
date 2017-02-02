@@ -1,0 +1,26 @@
+cache:
+  paths:
+    - node_modules/
+    - yarn.lock
+
+stages:
+  - test
+  - publish
+
+test:
+  stage: test
+  script:
+    - "yarn install"
+    - "yarn run lint"
+    - "yarn run test"
+  tags:
+    - npm
+
+npm:
+  stage: publish
+  script:
+    - "npm publish"
+  only:
+    - master
+  tags:
+    - npm

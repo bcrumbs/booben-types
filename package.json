@@ -1,0 +1,29 @@
+{
+  "name": "@jssy/types",
+  "version": "0.1.0",
+  "description": "Type system for JSSY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet :(\" && exit 0",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.ordbuy.com:29184/jssy/jssy-types.git"
+  },
+  "keywords": [
+    "jssy",
+    "types"
+  ],
+  "author": "Dmitriy Bizyaev",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "lodash.mapvalues": "^4.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslint-config-common": "^0.2.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1"
+  }
+}
