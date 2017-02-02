@@ -42,6 +42,13 @@ const TypeNames = {
 
 /**
  *
+ * @type {Set}
+ */
+const BUILTIN_TYPES =
+  new Set(Object.keys(TypeNames).map(key => TypeNames[key]));
+
+/**
+ *
  * @param {*} value
  * @return {boolean}
  */
@@ -86,7 +93,7 @@ const hasOwnProperty = /* istanbul ignore next */ (object, key) =>
  * @param {string} typeName
  * @return {boolean}
  */
-const isBuiltinType = typeName => hasOwnProperty(TypeNames, typeName);
+const isBuiltinType = typeName => BUILTIN_TYPES.has(typeName);
 
 /**
  *
