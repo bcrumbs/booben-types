@@ -83,6 +83,13 @@ const hasOwnProperty = /* istanbul ignore next */ (object, key) =>
 
 /**
  *
+ * @param {string} typeName
+ * @return {boolean}
+ */
+const isBuiltinType = typeName => hasOwnProperty(TypeNames, typeName);
+
+/**
+ *
  * @param {OneOfOption[]} options1
  * @param {OneOfOption[]} options2
  * @return {boolean}
@@ -702,6 +709,7 @@ const coerceValue = (
 };
 
 exports.TypeNames = TypeNames;
+exports.isBuiltinType = isBuiltinType;
 exports.resolveTypedef = resolveTypedef;
 exports.getNestedTypedef = getNestedTypedef;
 exports.isValidValue = isValidValue;
