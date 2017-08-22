@@ -1,6 +1,6 @@
 {
   "name": "@jssy/types",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Type system for JSSY",
   "main": "./lib/index.js",
   "scripts": {
