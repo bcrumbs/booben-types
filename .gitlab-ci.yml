@@ -1,8 +1,3 @@
-cache:
-  paths:
-    - node_modules/
-    - yarn.lock
-
 stages:
   - test
   - publish
