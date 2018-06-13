@@ -1,1 +1,3 @@
-TODO: Write readme
+
+# Booben types
+Type system for Booben

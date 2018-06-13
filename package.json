@@ -1,25 +1,17 @@
 {
-  "name": "@jssy/types",
+  "name": "booben-types",
   "version": "0.6.0",
-  "description": "Type system for JSSY",
+  "description": "Type system for Booben",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"No tests yet :(\" && exit 0",
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@gitlab.ordbuy.com:29184/jssy/jssy-types.git"
-  },
-  "bugs": {
-    "url": "https://gitlab.ordbuy.com/jssy/jssy-types/issues",
-    "email": "bizyaev@ordbuy.com"
-  },
   "keywords": [
-    "jssy",
+    "booben",
     "types"
   ],
-  "author": "Dmitriy Bizyaev <bizyaev@ordbuy.com>",
+  "author": "braincrumbs.io",
   "license": "UNLICENCED",
   "dependencies": {
     "lodash.mapvalues": "^4.6.0"
