@@ -1,5 +1,5 @@
 {
-  "extends": "@eslint/eslint-config-common",
+  "extends": "booben-eslint-config-common",
   "rules": {
     "curly": [2, "multi-line", "consistent"]
   }
