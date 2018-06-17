@@ -1,6 +1,6 @@
 {
   "name": "booben-types",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Type system for Booben",
   "main": "./lib/index.js",
   "scripts": {
